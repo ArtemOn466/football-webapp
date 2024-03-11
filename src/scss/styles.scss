@@ -1,0 +1,28 @@
+body {
+  background-color: #9aec98;
+}
+
+.navbar {
+  background-color: #00814b !important;
+  box-shadow: 0 5px 5px rgb(0, 88, 15);
+  margin-bottom: 50px;
+}
+
+ul {
+  display: flex;
+  gap: 200px;
+}
+
+.leagues {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.league,
+.league:hover,
+.league:active,
+.league:focus {
+  background-color: #00b828 !important;
+  color: rgb(0, 0, 0) !important;
+}
